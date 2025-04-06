@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Movie</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link
       rel="icon"
       href="https://th.bing.com/th/id/OIP.l8KAT5LA1rwxfhy2pf4XNQHaHw?w=181&h=189&c=7&r=0&o=5&dpr=1.5&pid=1.7"
@@ -72,77 +73,80 @@
         </div>
       </div>
     </header>
-    <main class="justify-items-center text-white p-10 bg-indigo-700">
-      
-      <h1 class="text-center p-10">Movie Genres</h1>
+    <main class="text-white p-10 bg-indigo-700">
+      <h1 class="text-center p-10 text-2xl md:text-4xl font-bold">Movie Genres</h1>
+    
       <section class="pt-10">
         <div
-          class="flex-nowrap grid grid-cols-4 shrink grid-rows-1 p-6 gap-1 justify-items-center"
-        >
-          <div class="card bg-base-100 w-65 shrink shadow-sm">
+          class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6" >
+          
+          <div class="card bg-base-100 shadow-sm">
             <img
               src="https://th.bing.com/th/id/R.ac21b4410635f7f6fac1c2375d9a5dac?rik=Jg1djVOgvjSsZA&riu=http%3a%2f%2fwww.nerdybitches.com%2fwp-content%2fuploads%2f2015%2f10%2fMovies-2015.jpg&ehk=7pjOxSKx8IgaIX4YKd81%2b%2bD%2fAh8eFMgTupcYP9QLEpU%3d&risl=&pid=ImgRaw&r=0"
               alt="movie"
-            />
-
+              class="w-full h-40 object-cover" />
             <div class="card-body bg-gray-500">
-              <p>Action</p>
+              <p class="text-center">Action</p>
             </div>
           </div>
-
-          <div class="card bg-base-100 w-65 shrink shadow-sm">
+    
+          
+          <div class="card bg-base-100 shadow-sm">
             <img
               src="https://i.ytimg.com/vi/qoFYyId4wNY/maxresdefault.jpg"
               alt="movie"
-            />
-
+              class="w-full h-40 object-cover" />
             <div class="card-body bg-gray-500">
-              <p>Adventure</p>
+              <p class="text-center">Adventure</p>
             </div>
           </div>
-
-          <div class="card bg-base-100 w-65 shrink shadow-sm">
+    
+          
+          <div class="card bg-base-100 shadow-sm">
             <img
               src="https://th.bing.com/th/id/OIP.VUO4pcrl0xE0V4LUw8aARwHaEK?w=600&h=337&rs=1&pid=ImgDetMain"
               alt="movie"
-            />
-
+              class="w-full h-40 object-cover" />
             <div class="card-body bg-gray-500">
-              <p>Sci-Fiction</p>
+              <p class="text-center">Sci-Fiction</p>
             </div>
           </div>
-
-          <div class="card bg-base-100 w-65 shrink shadow-sm">
-            <figure>
-              <img
-                src="https://i.ytimg.com/vi/o5LPYhqTMrM/maxresdefault.jpg"
-                alt="movies"
-              />
-            </figure>
+    
+          
+          <div class="card bg-base-100 shadow-sm">
+            <img
+              src="https://i.ytimg.com/vi/o5LPYhqTMrM/maxresdefault.jpg"
+              alt="movie"
+              class="w-full h-40 object-cover"
+            />
             <div class="card-body bg-gray-500">
-              <p>Romance</p>
+              <p class="text-center">Romance</p>
             </div>
           </div>
         </div>
       </section>
     </main>
+    
     <footer>
       <footer
         class="footer sm:footer-horizontal bg-gray-500 text-white text-base-content p-10"
       >
         <nav>
           <h6 class="footer-title">Movie Links</h6>
-          <a class="link link-hover">MRP Home page</a>
-          <a class="link link-hover">MRP latest reviews</a>
-          <a class="link link-hover">Browse movies</a>
-          <a class="link link-hover">Find new channels</a>
+          <a  href="index.html" target="_blank" class="link link-hover">MRP Home page</a>
+          <a  href="Favourites.html" target="_blank"class="link link-hover">MRP latest reviews</a>
+          <a   href="https://www.youtube.com/"
+          target="_blank"class="link link-hover">Browse movies</a>
+          <a   href="https://www.youtube.com/"
+          target="_blank" class="link link-hover">Find new channels</a>
         </nav>
         <nav>
           <h6 class="footer-title">MRP</h6>
-          <a class="link link-hover">About MRP</a>
-          <a class="link link-hover">Advertise on MRP</a>
-          <a class="link link-hover">Terms of Service</a>
-          <a class="link link-hover">Get youtube data</a>
+          <a href="index.html" target="_blank" class="link link-hover">About MRP</a>
+          <a href="index.html" target="_blank" class="link link-hover">Advertise on MRP</a>
+          <a href="index.html" target="_blank" class="link link-hover">Terms of Service</a>
+          <a  href="https://www.youtube.com/"
+          target="_blank" class="link link-hover">Get youtube data</a>
         </nav>
         <nav>
           <h6 class="footer-title">Contact us</h6>
